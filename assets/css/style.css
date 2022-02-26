@@ -1,0 +1,70 @@
+
+
+/*GENERAL*/
+main{display: flex;flex-direction: column;justify-content: center;align-items: center;height: 50vh;border: 1px solid red;}
+form{width: 60%;}
+h1{font-family: 'Luckiest Guy', cursive; margin-bottom: 2rem;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+	color: rgb(255,48,25); /* Old browsers */
+	color: -moz-linear-gradient(top,  rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6-15 */
+	color: -webkit-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	color: linear-gradient(to bottom,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+/*search.php*/
+header{width: 100%;}
+h1 a{font-family: 'Luckiest Guy', cursive; margin-bottom: 2rem;text-decoration: none;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+	color: rgb(255,48,25); /* Old browsers */
+	color: -moz-linear-gradient(top,  rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6-15 */
+	color: -webkit-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	color: linear-gradient(to bottom,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+h1 a:hover{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc578+0,fb9d23+100;Orange+3D+%233 */
+	color: rgb(255,197,120); /* Old browsers */
+	color: -moz-linear-gradient(top,  rgba(255,197,120,1) 0%, rgba(251,157,35,1) 100%); /* FF3.6-15 */
+	color: -webkit-linear-gradient(top,  rgba(255,197,120,1) 0%,rgba(251,157,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	color: linear-gradient(to bottom,  rgba(255,197,120,1) 0%,rgba(251,157,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+}
+.container-fluid{padding-left: 0;padding-right: 0;}
+.searchPage{justify-content: flex-start;background-color: #D8E3E7;height: 153px;}
+.searchPage .titleContainer {display: flex;flex-direction: row;margin-top: 2em; margin-left: 7.1em;}
+.searchPage form {display: flex;flex-direction: row;margin-top: 0.5em;background: #fff;width: 54%;border-radius: 1rem;}
+.formContainer input.form-control{width: 45em;border-radius: 1rem;border: none;}
+.titleContainer h1{margin-right: 0.4em;}
+.searchPage button{border: none;background: transparent;}
+
+#tabList{list-style-type: none;margin: 0;padding: 0;padding-left: 14rem;display: flex;flex-direction: row;}
+#tabList li{display: inline-block; margin-left: 3rem;}
+#tabList li a{text-decoration: none;display: inline-block;color: #232323;}
+
+#tabList li.active{border-bottom: 3px solid #1A73E8;}
+#tabList li.active a{font-weight: bold;color: rgba(30,87,135);}
+
+/*<section class="resultat>"*/
+.nbrResult{font-size: 0.98em;color:rgb(38, 38, 38,0.5); margin-bottom: 1em;}
+.resultContainer {padding-top: 1.5em;}
+section.resultat{width: 100%;align-self: flex-start;padding: 3em 16.6em;}
+.resultTitle{font-size: 0.8em;color:#AE5EAB;}
+h3.simpleTitle{margin-top: -0.5em;}
+a.resultUrl, a.resultTitle{text-decoration: none;}
+a.resultTitle:hover{text-decoration: underline;color:#AE5EAB;}
+a.resultTitle {font-size: 1em;}
+
+/*<section class="pagination>"*/
+.pageBtn{display: flex;}
+/*.pageNumberContainer{display: flex;flex-direction: column;align-items: center;justify-content: center;margin-left: 1em;}*/
+/*.pageNumber{border: 1px solid green;margin-left: 2em;height: 4em;width: 4em;}*/
+.pageNumber img{border: 1px solid red;}
+.pageNumberContainer.U {display: flex;flex-direction: column;align-items: center;justify-content: center;}
+/*.pageNumberContainer.X{margin-left: -0.4em;}*/
+a.pageNumber{text-decoration: none;}
+a.pageNumber:hover{text-decoration: underline;}
+
+/*ImageResultsProvider*/
+.resultContainerImage {margin-bottom: 2em;}
+.alt a, .imageLink a{text-decoration: none;}
+.imageLink {margin-top: -1.2em;}
